@@ -18,11 +18,11 @@
 3. Правой кнопкой → "View C4 Diagrams"
 
 ### Structurizr Lite (Docker)
-*```*
+```
 docker run -it --rm -p 8080:8080 \
   -v $(pwd)/docs/structurizr:/usr/local/structurizr \
   structurizr/lite
-*```*
+```
 Откройте http://localhost:8080
 
 ## Роли пользователей
